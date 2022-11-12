@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #23252C;
+    color: #ffffff;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    background: #1A1B21;
+    width: 317px;
+    margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 44px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info > img {
+    border-radius: 10px 10px 0px 0px;
 }
+
+.social-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-white {
+    display: flex;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    background: #FFFFFF;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-right: 17px;
+}
+
+.btn-blue {
+    display: flex;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background: #5093E2;
+    border-radius: 6px;
+}
+
+
+.main-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px
+}
+
+.jb-title {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #59D8FA;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.sm-title {
+    max-width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 35px;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+.abt-content {
+    max-width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-left: 35px;
+}
+
+.footer {
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer > img {
+    margin-right: 24px;
+}
+
