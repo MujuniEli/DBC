@@ -1,5 +1,5 @@
 import React from "react";
-import cardImage from "../images/sama drk.png"
+import cardImage from "../images/anime-eli.jpg"
 import emailIcon from "../images/email-Icon.png"
 import linkedinicon from "../images/linkedIn-icon.png"
 
