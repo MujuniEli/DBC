@@ -17,6 +17,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     background: #1A1B21;
     width: 317px;

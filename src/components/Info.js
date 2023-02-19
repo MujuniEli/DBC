@@ -15,10 +15,13 @@ export default function Info() {
                         <img src={emailIcon} alt="#" />
                         <p>Email</p>
                     </div>
+                    <a href="https://www.linkedin.com/in/elijah-mujuni-12a09379/">
                     <div className="btn-blue">
                         <img src={linkedinicon} alt="#" />
                         <p>LinkedIn</p>
                     </div>
+                    </a>
+                    
                 </div>
 
             </div>
