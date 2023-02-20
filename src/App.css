@@ -18,7 +18,8 @@ img {
 }
 
 a {
-    text-decoration: none;
+    all: unset;
+    cursor: pointer;
 }
 
 .container {
@@ -128,7 +129,7 @@ a {
     margin-bottom: 44px;
 }
 
-.footer > img {
+.footer > a {
     margin-right: 24px;
 }
 
