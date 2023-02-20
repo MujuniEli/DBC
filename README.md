@@ -8,10 +8,10 @@ In this solo project I built a basic static react site to display my information
 
 ## Link
 
-[Live Site URL:](https://elisdigitalbusinesscard.netlify.app/)
+- Live Site:[DBC](https://elisdigitalbusinesscard.netlify.app/)
 
 ## My Process
-
+I followed the provided figma designs to come up with this site
 
 ## Built With
 
@@ -20,7 +20,7 @@ In this solo project I built a basic static react site to display my information
 
 
 ## What I learned
-
+This project exposed me to the basic structure of a react project and also introduced beginner react concepts like components.
 
 ## Continued Development
 
